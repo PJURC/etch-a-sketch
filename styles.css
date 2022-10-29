@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header {
+    margin: 50px;
+}
+
+#grid-query {
+    font-size: 2vh;
+}
+
+#container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border: 4px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+.grid_element {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.active {
+    background-color: blue;
+}
